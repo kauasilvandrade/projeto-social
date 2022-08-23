@@ -24,7 +24,7 @@ main {
     height: 100vh;
 }
 
-#telefone {
+main #telefone {
     height: 627px;
     width: 311px;
     position: absolute;
@@ -32,4 +32,12 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url(../imagens/frame-iphone.png);
+}
+
+main #telefone iframe {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
